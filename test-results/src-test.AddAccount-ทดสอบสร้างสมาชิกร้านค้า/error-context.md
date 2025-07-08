@@ -1,0 +1,113 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - text: เพิ่มบัญชีสาขา การจัดการบัญชีร้านค้า / เพิ่มบัญชีสาขา
+  - paragraph: v. 5.0.54
+  - paragraph: Admin
+  - paragraph: Admin
+  - button "A"
+- paragraph: Web admin
+- img
+- button
+- menu:
+  - img
+  - paragraph: แดชบอร์ด
+  - menuitem "การจัดการบัญชีร้านค้า":
+    - img
+    - paragraph: การจัดการบัญชีร้านค้า
+  - menuitem "ระบบการใช้งาน":
+    - img
+    - paragraph: ระบบการใช้งาน
+  - menuitem "ศูนย์ช่วยเหลือ":
+    - img
+    - paragraph: ศูนย์ช่วยเหลือ
+  - menuitem "Emenu Free":
+    - paragraph: Emenu Free
+  - menuitem "ตั้งค่า":
+    - img
+    - paragraph: ตั้งค่า
+- img
+- main:
+  - tablist:
+    - tab "ข้อมูลสาขา" [selected]
+    - tab "จัดการเมนู"
+  - heading "ข้อมูลทั่วไป ( ข้อมูลบัญชีของสาขา )" [level=6]
+  - paragraph: ชื่อสาขา*
+  - textbox "กรุณาระบุชื่อสาขา": สาขาใหม่
+  - paragraph: ประเภทสาขา *
+  - combobox "กรุณาระบุประเภทสาขา": สาขา
+  - button "Open"
+  - paragraph: Merchant ID
+  - textbox "กรุณาระบุ"
+  - paragraph: รหัสสาขา
+  - textbox "กรุณาระบุรหัสสาขา": S0001
+  - paragraph: ที่อยู่
+  - textbox "กรุณาระบุที่อยู่": 123 ถนนสุขุมวิท แขวงบางนา กรุงเทพฯ
+  - paragraph: เบอร์โทร ( กรุณาระบุตัวเลขเท่านั้น )
+  - textbox "กรุณาระบุเบอร์โทร": "0912345678"
+  - separator
+  - heading "บัญชีผู้ใช้สาขา ( บัญชีผู้ใช้งานสำหรับเข้าใช้งาน Super POS )" [level=6]
+  - paragraph: ชื่อบัญชีผู้ใช้ (Username) *
+  - textbox "กรุณาระบุชื่อบัญชีผู้ใช้ (Username)": user123
+  - paragraph: รหัสผ่าน ( Password ) *
+  - textbox "กรุณาระบุรหัสผ่าน": NewPassword@123
+  - button
+  - paragraph: รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร
+  - paragraph: สถานะการใช้งาน
+  - radiogroup "สถานะการใช้งาน":
+    - radio "เปิดการใช้งาน" [checked]
+    - paragraph: เปิดการใช้งาน
+    - radio "ปิดการใช้งาน"
+    - paragraph: ปิดการใช้งาน
+  - tablist:
+    - tab "ข้อมูลแพ็คเกจ" [selected]
+  - heading "ข้อมูลแพ็คเกจ" [level=6]
+  - paragraph: แพ็คเกจ *
+  - group:
+    - radiogroup "สถานะการใช้งาน":
+      - radio "Starter"
+      - paragraph: Starter
+      - radio "Standard"
+      - paragraph: Standard
+      - radio "Super"
+      - paragraph: Super
+      - radio "Super SR"
+      - paragraph: Super SR
+  - paragraph: การใช้บริการ *
+  - combobox "เลือกรายการใช้บริการ": รายปี
+  - button "Open"
+  - paragraph: ราคา *
+  - textbox "กรุณาระบุราคา": "0"
+  - paragraph: วันที่เริ่มใช้งาน *
+  - textbox "DD/MM/YYYY": 03/07/2025
+  - button "Choose date, selected date is 3 ก.ค. 2025"
+  - paragraph: วันที่สิ้นสุด *
+  - textbox "DD/MM/YYYY": 03/07/2025
+  - button "Choose date, selected date is 3 ก.ค. 2025"
+  - heading "รูปภาพ" [level=6]
+  - img "Uploaded Image"
+  - button
+  - heading "แผนที่ร้านอาหาร" [level=6]
+  - textbox "ระบุคำที่ต้องการค้นหา"
+  - button "Keyboard shortcuts"
+  - region "Map"
+  - menubar:
+    - menuitemradio "Show street map" [checked]: Map
+    - menuitemradio "Show satellite imagery": Satellite
+  - button "Toggle fullscreen view"
+  - button "Map camera controls"
+  - button "Drag Pegman onto the map to open Street View":
+    - img "Street View Pegman Control"
+  - link "Open this area in Google Maps (opens a new window)":
+    - /url: https://maps.google.com/maps?ll=13.83378,100.573001&z=18&t=m&hl=en-US&gl=US&mapclient=apiv3
+    - img "Google"
+  - button "Keyboard shortcuts"
+  - text: Map data ©2025
+  - link "Terms":
+    - /url: https://www.google.com/intl/en-US_US/help/terms_maps.html
+  - link "Report errors in the road map or imagery to Google":
+    - /url: https://www.google.com/maps/@13.8337801,100.5730015,18z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3
+  - button "ยกเลิก"
+  - button "บันทึก"
+```
