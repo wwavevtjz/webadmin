@@ -75,16 +75,16 @@
       - radio "Super SR"
       - paragraph: Super SR
   - paragraph: การใช้บริการ *
-  - combobox "เลือกรายการใช้บริการ": รายปี
+  - combobox "เลือกรายการใช้บริการ"
   - button "Open"
   - paragraph: ราคา *
   - textbox "กรุณาระบุราคา": "0"
   - paragraph: วันที่เริ่มใช้งาน *
-  - textbox "DD/MM/YYYY": 03/07/2025
-  - button "Choose date, selected date is 3 ก.ค. 2025"
+  - textbox "DD/MM/YYYY": 04/07/2025
+  - button "Choose date, selected date is 4 ก.ค. 2025"
   - paragraph: วันที่สิ้นสุด *
-  - textbox "DD/MM/YYYY": 03/07/2025
-  - button "Choose date, selected date is 3 ก.ค. 2025"
+  - textbox "DD/MM/YYYY": 04/07/2025
+  - button "Choose date, selected date is 4 ก.ค. 2025"
   - heading "รูปภาพ" [level=6]
   - img "Uploaded Image"
   - button
@@ -100,14 +100,14 @@
   - button "Drag Pegman onto the map to open Street View":
     - img "Street View Pegman Control"
   - link "Open this area in Google Maps (opens a new window)":
-    - /url: https://maps.google.com/maps?ll=13.83378,100.573001&z=18&t=m&hl=en-US&gl=US&mapclient=apiv3
+    - /url: https://maps.google.com/maps?ll=13.833826,100.573131&z=18&t=m&hl=en-US&gl=US&mapclient=apiv3
     - img "Google"
   - button "Keyboard shortcuts"
   - text: Map data ©2025
   - link "Terms":
     - /url: https://www.google.com/intl/en-US_US/help/terms_maps.html
   - link "Report errors in the road map or imagery to Google":
-    - /url: https://www.google.com/maps/@13.8337801,100.5730015,18z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3
+    - /url: https://www.google.com/maps/@13.8338262,100.573131,18z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3
   - button "ยกเลิก"
   - button "บันทึก"
 ```
